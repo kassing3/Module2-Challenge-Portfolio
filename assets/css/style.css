@@ -1,0 +1,413 @@
+/* GENERAL */
+
+* {
+    font-size: 16px;
+}
+
+:root {
+    --blue: #0D1831;
+    --yellow: #e4c454;
+}
+
+
+
+body {
+    width: 100%;
+}
+
+main {
+    padding: 4em 2em 0 2em ;
+}
+
+section {
+    width: 100%;
+    padding: 
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 1.5rem 0;
+}
+
+
+
+/* HEADER SECTION */
+
+header {
+    width: 100%;
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0 1.5rem;
+    background-color: var(--blue);
+    position: fixed;
+}
+
+header #nav-title h1 {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+header #nav-title #logo {
+    height: 1.5rem;
+    width: auto;
+}
+
+#ham-nav label, #hamburger { 
+    display: none; 
+}
+
+#ham-nav input:checked ~ #ham-items { 
+    display: block; 
+}
+
+#ham-nav label { 
+    display: inline-block; 
+    color: white;
+    font-style: normal;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#ham-items { 
+    display: none; 
+}
+
+#ham-items a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: .75rem;
+    color: white;
+}
+
+#ham-items a:hover {
+     background: var(--yellow);
+    color: var(--blue) 
+}
+
+
+/* HOME BANNER */
+
+#home-banner{
+    width: 100%;
+}
+
+
+
+
+/* ABOUT ME */
+
+#about-me {
+    padding: 2rem;
+    border: 4px double var(--blue);
+    border-radius: 4px;
+}
+
+.content {
+    display:flex;
+    flex: 2;
+}
+
+#profile-img {
+    width: 25%;
+}
+
+
+.icon-cert {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+/* PROJECTS */
+
+
+
+#my-projects figure img{
+    width: 25%;
+}
+
+
+.icon {
+    width: 25%;
+}
+
+/* RESPONSIVE DESIGN */
+@media only screen and (max-width: 945px){
+    
+    .content {
+        display: block;
+    }
+
+    #profile-img {
+        width: 100%;
+    }
+    
+    
+    .icon-cert {
+        width: 25%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #about-me p{
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+
+
+
+/* body {
+    width: 100%;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column 2; 
+}
+
+header {
+    width: 10%;
+    height: 100%;
+    background: #252525;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+header h1 {
+    color: white;
+}
+header nav ul a {
+    color: white;
+}
+
+main {
+    width: 100%;
+    margin-left: 10%;
+ 
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+ section {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding:3%
+ }
+
+
+ .banner {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../images/Banner-Hero-Intro.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+section h2 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    text-decoration: underline;
+}
+
+
+#profile-img {
+    width: 25%;
+    height: auto;
+    float: left;
+} */
+
+
+
+
+
+/* header {
+    height: 100%;
+    width: 200px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#side-nav a {
+    padding: 50px 10px 10px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: black;
+}
+
+#side-nav a:hover {
+    color: pink;
+}
+
+.content-area{
+    margin-left: 200px;
+    padding: 0 10px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../images/Banner-Hero-Intro.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-area {
+    height: 100vh;
+    width: 100%;
+}
+
+.text-content {
+    padding: 15%;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 1% 0;
+    font-size: 2rem;
+    margin: 0;
+    color: black;
+ }
+
+ #profile-img {
+    width: 25%;
+    height: auto;
+ }
+
+ .card-right p {
+    padding: 2%;
+ }
+
+.icon-cert {
+    width: 10%;
+    height: auto;
+} */
+
+
+
+
+
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: "Cormorant Garamond Bol", serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+section {
+    margin: 25px;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+HEADER
+
+header {
+    padding: 10px;
+    background-color: white;
+    color: var(--blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    position: fixed;
+    flex-wrap: nowrap;
+}
+
+header h1 {
+    color: var(--blue);
+}
+
+ #logo {
+    width: 5%;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    color: var(--blue);
+}
+
+header a {
+    color: var(--blue);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+#logo {
+
+}
+
+HERO
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/Banner-Hero-Intro.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ABOUT ME
+
+#profile-img {
+    width: 100px;
+    height: auto;
+}
+
+.icon-cert {
+    width: 100px;
+    height: auto;
+}
+
+MY PROJECTS
+
+
+.projects-img {
+    width: 100px;
+    height: auto;
+}
+ */
