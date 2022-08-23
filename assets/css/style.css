@@ -21,7 +21,6 @@ main {
 
 section {
     width: 100%;
-    padding: 
 }
 
 h2 {
@@ -43,6 +42,7 @@ header {
     padding: 0 1.5rem;
     background-color: var(--blue);
     position: fixed;
+    z-index: 100;
 }
 
 header #nav-title h1 {
@@ -98,49 +98,95 @@ header #nav-title #logo {
 }
 
 
-
-
 /* ABOUT ME */
+
+.content {
+    margin-left: 2rem;
+    direction: column;
+}
 
 #about-me {
     padding: 2rem;
     border: 4px double var(--blue);
     border-radius: 4px;
-}
-
-.content {
-    display:flex;
-    flex: 2;
+    display: flex;
+    align-items: center;
 }
 
 #profile-img {
-    width: 25%;
+    max-width: 100%;
 }
 
-
 .icon-cert {
-    width: 100%;
+    max-width: 20%;
     height: auto;
     padding: 1rem;
 }
 
 /* PROJECTS */
 
+#my-projects{
+    padding: 2rem;
+    border: 4px double var(--blue);
+    border-radius: 4px;
+}
 
-
-#my-projects figure img{
-    width: 25%;
+#project-main {
+    position: relative;
 }
 
 
-.icon {
+#project-banner {
+    width: 100%;
+}
+
+
+
+#project-main figcaption {
+    position: absolute;
+    display: block;
+    background-color: var(--yellow);
+    color: #0D1831;
+    font-size: 1em;
+    padding: 1rem 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#content-projects {
+    display: flex;
+    direction: row;
+}
+
+.projects {
     width: 25%;
+    margin: 1rem;
+}
+
+.projects-img {
+    width: 100%;
+}
+
+
+
+
+/* CONTACT ME */
+
+#contact-me {
+    padding: 2rem;
+    border: 4px double var(--blue);
+    border-radius: 4px;
+}
+.icon {
+    width: 10%;
 }
 
 /* RESPONSIVE DESIGN */
 @media only screen and (max-width: 945px){
     
-    .content {
+    #about-me {
         display: block;
     }
 
@@ -156,7 +202,6 @@ header #nav-title #logo {
     }
 
     #about-me p{
-        padding: 1rem;
         width: 100%;
     }
 }
