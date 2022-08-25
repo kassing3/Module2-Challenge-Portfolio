@@ -304,8 +304,8 @@ nav ul li a:hover {
             flex-wrap: wrap;
         }
 
-    
-        #contact-icons {
+
+        .icon {
             width: 20%;
         }
     }
@@ -337,7 +337,7 @@ nav ul li a:hover {
 
 
 
-        #contact-icons {
+        .icon {
             width: 25%;
         }
 
