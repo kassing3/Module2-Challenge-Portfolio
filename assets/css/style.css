@@ -345,4 +345,8 @@ nav ul li a:hover {
         .alt-title {
             display: none;
         }
+
+        .icon {
+            width: 100%;
+        }
     }
