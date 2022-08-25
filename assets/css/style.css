@@ -29,7 +29,7 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 2rem;
     font-family: 'Montserrat', sans-serif;
     grid-column: span 3;
 }
@@ -330,5 +330,15 @@ nav ul li a:hover {
             font-size: 1rem;
         }
 
+        .projects {
+            width: 100%;
+        }
+
+        .alt-title {
+            font-size: .75rem;
+        }
+        #contact-icons {
+            width: 25%;
+        }
 
     }
