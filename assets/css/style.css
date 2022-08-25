@@ -219,7 +219,7 @@ nav ul li a:hover {
 
 /* RESPONSIVE DESIGN */
 
-    /* Up to Ipad */
+    /* Up to 975px */
     @media only screen and (max-width: 975px){
        
        
@@ -310,7 +310,8 @@ nav ul li a:hover {
         }
     }
 
-    /* PHONE RESPONSIVE*/
+    /* Up to 750px */
+
     @media only screen and (max-width: 750px){
 
         #home-banner-horizontal {
@@ -334,15 +335,17 @@ nav ul li a:hover {
             width: 100%;
         }
 
-        .alt-title {
-            font-size: .75rem;
-            display: none;
-        }
 
-    
 
         #contact-icons {
             width: 25%;
         }
 
+    }
+    /* Up to 450px */
+
+    @media only screen and (max-width: 450px) {
+        .alt-title {
+            display: none;
+        }
     }
