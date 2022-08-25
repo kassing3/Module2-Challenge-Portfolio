@@ -82,7 +82,7 @@ nav ul {
     flex-direction: row;
     gap: 1rem;
 }
-nav label {
+nav label, nav input {
     display: none;
 }
 
