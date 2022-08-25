@@ -36,7 +36,7 @@ When working towards responsive design, the use of media queries were helpful wh
 
 From this project, I learned the importance of starting simple, and building up to complex coding only when necessary. I also learned that CSS is a very powerful tool when styling your web application and making them responsive. I also receive a better understanding on why UX Design is important when building web applications as it's important to keep the user in my mind as you code and design web applications.
 
-
+![Portfolio Home Page](/assets/images/Porfolio-Homepage.png)
 
 ## Usage
 
