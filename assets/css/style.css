@@ -336,6 +336,7 @@ nav ul li a:hover {
 
         .alt-title {
             font-size: .75rem;
+            display: none;
         }
 
     
