@@ -346,5 +346,9 @@ nav ul li a:hover {
             display: none;
         }
 
+        #about-me p {
+            font-size: .5rem;
+        }
+
      
     }
