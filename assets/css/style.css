@@ -82,9 +82,10 @@ nav ul {
     flex-direction: row;
     gap: 1rem;
 }
-nav #label {
+nav label {
     display: none;
 }
+
 nav ul li a {
     color: white;
 }
