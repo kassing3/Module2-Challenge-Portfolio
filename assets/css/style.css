@@ -202,14 +202,12 @@ nav ul li a:hover {
 #contact-me {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 
 #contact-icons a {
     flex-direction: row;
-    justify-content: center;
-    padding-right: 1rem;
+    margin-left: 2rem;
 }
 
 .icon {
@@ -294,7 +292,6 @@ nav ul li a:hover {
             width:15%;
             
         }
-
         
         #project-main {
             display: block;
