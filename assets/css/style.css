@@ -82,7 +82,7 @@ nav ul {
     flex-direction: row;
     gap: 1rem;
 }
-nav #hamburger {
+nav #label {
     display: none;
 }
 nav ul li a {
