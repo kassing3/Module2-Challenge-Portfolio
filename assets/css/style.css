@@ -195,24 +195,25 @@ nav ul li a:hover {
 /* CONTACT ME */
 
 #contact-me h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
+
 }
 
 #contact-me {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
-#contact-icons {
-    display: flex;
+
+
+#contact-icons a {
     flex-direction: row;
-    width: 10%;
-    align-content: center;
-    gap: 1em;
+    justify-content: center;
+    padding-right: 1rem;
 }
 
 .icon {
-    width:50px;
+    width: 5%;
 }
 
 
@@ -256,8 +257,7 @@ nav ul li a:hover {
              background: var(--yellow);
             color: var(--blue) 
         }
-       
-       
+    
        
        
        
@@ -305,9 +305,6 @@ nav ul li a:hover {
         }
 
 
-        .icon {
-            width: 2rem;
-        }
     }
 
     /* Up to 750px */
@@ -336,8 +333,6 @@ nav ul li a:hover {
         }
 
 
-
-
     }
     /* Up to 450px */
 
@@ -346,7 +341,5 @@ nav ul li a:hover {
             display: none;
         }
 
-        .icon {
-            width: 100%;
-        }
+     
     }
