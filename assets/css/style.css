@@ -50,6 +50,11 @@ p, a{
     font-weight: light;
 }
 
+#about-me, #my-projects {
+    border: 1rem solid var(--blue);
+    padding: 1rem;
+}
+
 
 /* HEADER SECTION */
 
@@ -96,6 +101,7 @@ nav ul li a:hover {
 }
 
 
+
 /* HOME BANNER */
 
 #home-banner-horizontal {
@@ -105,10 +111,7 @@ nav ul li a:hover {
 
 /* ABOUT ME */
 
-#about-me {
-    border: 1rem solid var(--blue);
-    padding: 1rem;
-}
+
 
 .about-grid{
     display: grid;
@@ -141,11 +144,6 @@ nav ul li a:hover {
 
 
 /* PROJECTS */
-
-
-#my-projects{
-    border: 1rem solid var(--yellow);
-}
 
 #my-projects figure:hover {
     background: var(--yellow);
