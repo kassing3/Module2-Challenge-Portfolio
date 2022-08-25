@@ -172,6 +172,10 @@ nav ul li a:hover {
     font-size: 2rem;
 }
 
+.projects .alt-title {
+    font-size: 1rem;
+}
+
 .icon-projects{
     margin:0  3em 1.5em 3em;
     display: flex;
