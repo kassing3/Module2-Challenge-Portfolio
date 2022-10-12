@@ -6,26 +6,90 @@
     --grey: #ACAFAC;
 }
 
+header {
+    border-bottom: .01em solid #cdd7ee;
+    background-color: #fdfdff;
+}
 
 h1 {
     font-family: 'Great Vibes', cursive;
 }
 
+h2 {
 
+    padding: 1rem 3rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#aboutMeSection,
+#projectsSection {
+    margin: 0;
+    padding-top: 4rem; 
+    width: 100%;
+    height:100vh;   
+    overflow: scroll;
+}
+
+li {
+    list-style: none;
+}
+
+.hero {
+    display: none;
+}
+
+
+.container-fluid {
+    padding:0;
+}
 
 
 .btn {
     padding: 5px;
 }
 
-
 .btn-custom-primary {
    
-    color: var(--white);
+    color: var(--blue);
 }
 
 .btn-custom-primary:hover {
     color: var(--grey);
+}
+
+.btn-custom-projects{
+    background-color: var(--blue);
+    color: var(--yellow);
+
+}
+
+.btn-custom-projects:hover {
+    background-color: #3a5083;
+    color: var(--yellow);
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--green);
+}
+
+#aboutMeSection,
+#projectsSection {
+    margin: 0;
+    padding-top: 4rem; 
+    width: 100%;
+    height:100vh;   
+    overflow: scroll;
 }
 
 
@@ -37,9 +101,19 @@ h1 {
     background-size: cover;
     width: 100%;
     height: 100vh;
-   
 }
 
+
+#ProfileImage {
+    background-image: url(../images/Profile-Glasss-vertical.JPG);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#skillsImg {
+    width:30%;
+}
 
 @media only screen and (max-width: 1024px){
 
@@ -49,8 +123,16 @@ h1 {
         background-position: center center;
         background-position: fixed;
         background-size: cover;
-        width: 100%;
-        
+        width: 100%;  
+    }
+
+}
+
+@media only screen and (max-width: 765px){
+
+    #ProfileImage {
+        background-image: url(../images/Profile-Glasss.png);
+        height: 50vh;
     }
 
 }
