@@ -115,7 +115,39 @@ li {
     width:30%;
 }
 
-@media only screen and (max-width: 1024px){
+.imageXL {
+    display: block;
+    width: 100%;
+}
+
+.imageLG {
+    display: none;
+}
+
+.imageMD {
+    display: none;
+}
+
+.imageSM{
+    display: none;
+    
+}
+
+@media only screen and (max-width:1190px){
+    .imageXL {
+        display: none;
+    }
+
+    .imageLG {
+        display: block;
+    width: 100%;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 990px){
 
     #home-banner {
         display: block;
@@ -128,11 +160,74 @@ li {
 
 }
 
-@media only screen and (max-width: 765px){
+
+
+@media only screen and (max-width: 865px){
 
     #ProfileImage {
         background-image: url(../images/Profile-Glasss.png);
         height: 50vh;
+    }
+    .imageLG {
+        display: none;
+    }
+
+    .imageMD {
+        display: block;
+    width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 650px){
+
+
+    /* .imageXL{
+        display: none;
+    }
+
+    .imageLG {
+        display: none;
+    }
+
+    .imageMD{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .imageSM{
+        display: none;
+        
+    } */
+
+}
+
+
+@media only screen and (max-width: 550px){
+
+
+    .imageXL{
+        display: none;
+    }
+
+    .imageLG {
+        display: none;
+    }
+
+    .imageMD{
+        display: none;
+        
+    }
+
+    .imageSM{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        
     }
 
 }
