@@ -180,33 +180,6 @@ li {
 
 }
 
-
-@media only screen and (max-width: 650px){
-
-
-    /* .imageXL{
-        display: none;
-    }
-
-    .imageLG {
-        display: none;
-    }
-
-    .imageMD{
-        display: block;
-        width: 100%;
-        object-fit: cover;
-        
-    }
-
-    .imageSM{
-        display: none;
-        
-    } */
-
-}
-
-
 @media only screen and (max-width: 550px){
 
 
