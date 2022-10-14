@@ -44,8 +44,18 @@ const techSkills = [
 
 ]
 
+//Close Offcanvas navbar on click of nav item
 
-//Change to 
+// const navItems = document.getElementsByClassName("nav-link")
+// const offCanvasNav = document.getElementsByClassName("offcanvas")
+
+// const closeOffCanvas = (e) => {
+//     offCanvasNav.offcanvas("hide");
+// }
+
+// navItems.addEventListener ("click",closeOffCanvas);
+
+//Change to different sections
 
 const changeToAboutSection = (e) => {
 

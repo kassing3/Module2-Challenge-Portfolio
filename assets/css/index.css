@@ -79,6 +79,11 @@ li {
     color: var(--yellow);
 }
 
+.closeOffCanvasBtn{
+    background-color: transparent;
+    border: transparent;
+}
+
 .custom-tooltip {
     --bs-tooltip-bg: var(--green);
 }
