@@ -120,6 +120,10 @@ li {
     width:30%;
 }
 
+#emailbtn::after {
+    content: "kaassing@gmail.com";
+}
+
 .imageXL {
     display: block;
     width: 100%;
